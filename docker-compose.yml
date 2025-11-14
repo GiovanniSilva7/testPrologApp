@@ -6,7 +6,7 @@ services:
     container_name: test_prolog_db
     restart: always
     environment:
-      POSTGRES_DB: teste_prolog
+      POSTGRES_DB: test_prolog
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: giovanni
     ports:
