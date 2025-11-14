@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:17
+    container_name: test_prolog_db
+    restart: always
+    environment:
+      POSTGRES_DB: teste_prolog
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: giovanni
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data  
