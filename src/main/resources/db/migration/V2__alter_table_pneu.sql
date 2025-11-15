@@ -1,0 +1,2 @@
+ALTER TABLE pneu
+ALTER COLUMN numero_de_fogo TYPE VARCHAR (50);
