@@ -62,4 +62,5 @@ public class Veiculo implements Serializable{
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable=false)
     private StatusVeiculo statusVeiculo;
+    
 }
